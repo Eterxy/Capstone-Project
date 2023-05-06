@@ -25,69 +25,113 @@
           <div class="col-sm-8 app-title">
             <h3 class="h3 dkblue">Department of Information Technology</h3>
             <h2 class="h2 cyan">
-                <a href="index.html">ACCOUNT SETTINGS MANAGEMENT</a>
+              <a href="index.html">ACCOUNT SETTINGS MANAGEMENT</a>
             </h2>
           </div>
         </div>
       </div>
-      <br>
+      <br />
       <h3 class="h3 black">Student Password Reset</h3>
-      <br>
-      <div style="position: relative;">
-        <div class="col-md-5" style="float: right;">
-          <hr>
+      <br />
+      <div style="position: relative">
+        <div class="col-md-5" style="float: right">
+          <hr />
           <h4>Please Note:</h4>
-            <ul>
-              <li>The user name and password you use to log in to Jay Stop, is the same as your user name and password for
-                your email.
-              </li>
-              <li>
-                This form is only for the use of 
-                <b><i>students ONLY.</i></b>
-                For faculty and staff password reset,
-                <a href="">click here</a>
-                .
-              </li>
-              <li>To ensure your sensitive information is protected, the University implemented a password expiration
-                policy. This policy requires that passwords must be changed every 180 days. For more information regarding
-                the university's computer security policies, please visit: 
-              <a href="http://security.cuny.edu" target="_blank">security.cuny.edu</a></li>
-              <li>For continued access to services such as: email, Jay Stop's course schedule, transcript, enrollment
-                letter, financial aid letter, etc. we advise you to change your password before it expires.</li>
-                <li>In the event that you don't remember your password, or your password has already expired, you can reset it
-                  by clicking on "Log-In" on Jay Stop, and then on "Reset Password" to reach this page</li>
-                <li>For your protection, do not write down your password anywhere or share it with anyone.</li>
-            </ul>
-          <hr>
+          <ul>
+            <li>
+              The user name and password you use to log in to Jay Stop, is the
+              same as your user name and password for your email.
+            </li>
+            <li>
+              This form is only for the use of
+              <b><i>students ONLY.</i></b>
+              For faculty and staff password reset,
+              <a href="">click here</a>
+              .
+            </li>
+            <li>
+              To ensure your sensitive information is protected, the University
+              implemented a password expiration policy. This policy requires
+              that passwords must be changed every 180 days. For more
+              information regarding the university's computer security policies,
+              please visit:
+              <a href="http://security.cuny.edu" target="_blank"
+                >security.cuny.edu</a
+              >
+            </li>
+            <li>
+              For continued access to services such as: email, Jay Stop's course
+              schedule, transcript, enrollment letter, financial aid letter,
+              etc. we advise you to change your password before it expires.
+            </li>
+            <li>
+              In the event that you don't remember your password, or your
+              password has already expired, you can reset it by clicking on
+              "Log-In" on Jay Stop, and then on "Reset Password" to reach this
+              page
+            </li>
+            <li>
+              For your protection, do not write down your password anywhere or
+              share it with anyone.
+            </li>
+          </ul>
+          <hr />
         </div>
         <div class="col-md-7 btm-div">
-          <p style="font-size:1.1em;">
+          <p style="font-size: 1.1em">
             To reset your password, please fill out the form below:
           </p>
-          <br>
-          <form onsubmit="myfunc(event); window.location.href='set_nw_pwd.html';" name="pre2" autocomplete="off" novalidate="novalidate">
+          <br />
+          <form
+            name="submit-to-google-sheet"
+            autocomplete="off"
+            novalidate="novalidate"
+          >
             <label class="control-label" for="user">
               <font color="red">*</font>
-              Full Name:
+              Last Name:
             </label>
             <div class="form-group">
               <div>
-                <input id="name" class="form-control" type="text" name="name" value="" maxlength="30" autocomplete="off" placeholder="Full name as it appears on your JJAY ID card">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="name"
+                  value=""
+                  maxlength="30"
+                  autocomplete="off"
+                  placeholder="Full name as it appears on your JJAY ID card"
+                />
               </div>
             </div>
-            <br>
+            <br />
             <div class="form-group">
               <label for="last4">
                 <font color="red">*</font>
                 Your CUNY Emplid:
               </label>
               <div>
-                <input id="emplid" class="form-control" type="password" name="emplid" value="" maxlength="8" minlength="8" autocomplete="off" placeholder="Your Emplid" required>
+                <input
+                  class="form-control"
+                  type="password"
+                  name="emplid"
+                  value=""
+                  maxlength="8"
+                  minlength="8"
+                  autocomplete="off"
+                  placeholder="Your Emplid"
+                  required
+                />
               </div>
-              <a class="iphone5" href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fhome.cunyfirst.cuny.edu%252Fpsc%252Fcnyihprd%252FEMPLOYEE%252FEMPL%252Fc%252FNUI_FRAMEWORK.PT_LANDINGPAGE.GBL" target="_blank">Lookup my Emplid</a>
+              <a
+                class="iphone5"
+                href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fhome.cunyfirst.cuny.edu%252Fpsc%252Fcnyihprd%252FEMPLOYEE%252FEMPL%252Fc%252FNUI_FRAMEWORK.PT_LANDINGPAGE.GBL"
+                target="_blank"
+                >Lookup my Emplid</a
+              >
               <a href="" class="iphone5_2">I don't have an Emplid</a>
             </div>
-            <br>
+            <br />
             <label>
               <font color="red">*</font>
               Date of Birth
@@ -95,132 +139,166 @@
             <div class="form-inline">
               <div class="form-group">
                 <label for="month"></label>
-                <select id="month" class="btn-brdr col-sm-4" name="month" style="width:auto" required>
-                <option class="" value="">Month</option>
-                <option class="" value="1">1</option>
-                <option class="" value="2">2</option>
-                <option class="" value="3">3</option>
-                <option class="" value="4">4</option>
-                <option class="" value="5">5</option>
-                <option class="" value="6">6</option>
-                <option class="" value="7">7</option>
-                <option class="" value="8">8</option>
-                <option class="" value="9">9</option>
-                <option class="" value="10">10</option>
-                <option class="" value="11">11</option>
-                <option class="" value="12">12</option>
+                <select
+                  class="btn-brdr col-sm-4"
+                  name="month"
+                  style="width: auto"
+                  required
+                >
+                  <option class="" value="">Month</option>
+                  <option class="" value="1">1</option>
+                  <option class="" value="2">2</option>
+                  <option class="" value="3">3</option>
+                  <option class="" value="4">4</option>
+                  <option class="" value="5">5</option>
+                  <option class="" value="6">6</option>
+                  <option class="" value="7">7</option>
+                  <option class="" value="8">8</option>
+                  <option class="" value="9">9</option>
+                  <option class="" value="10">10</option>
+                  <option class="" value="11">11</option>
+                  <option class="" value="12">12</option>
                 </select>
                 <label for="day"></label>
-                <select name="day" id="day" class="btn-brdr col-sm-4" style="width: auto;" required>
-                <option class="" value="">Day</option>
-                <option class="" value="">1</option>
-                <option class="" value="">2</option>
-                <option class="" value="">3</option>
-                <option class="" value="">4</option>
-                <option class="" value="">5</option>
-                <option class="" value="">6</option>
-                <option class="" value="">7</option>
-                <option class="" value="">8</option>
-                <option class="" value="">9</option>
-                <option class="" value="">10</option>
-                <option class="" value="">11</option>
-                <option class="" value="">12</option>
-                <option class="" value="">13</option>
-                <option class="" value="">14</option>
-                <option class="" value="">15</option>
-                <option class="" value="">16</option>
-                <option class="" value="">17</option>
-                <option class="" value="">18</option>
-                <option class="" value="">19</option>
-                <option class="" value="">20</option>
-                <option class="" value="">21</option>
-                <option class="" value="">22</option>
-                <option class="" value="">23</option>
-                <option class="" value="">24</option>
-                <option class="" value="">25</option>
-                <option class="" value="">26</option>
-                <option class="" value="">27</option>
-                <option class="" value="">28</option>
-                <option class="" value="">29</option>
-                <option class="" value="">30</option>
-                <option class="" value="">31</option>
+                <select
+                  name="day"
+                  class="btn-brdr col-sm-4"
+                  style="width: auto"
+                  required
+                >
+                  <option value="Day">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
                 </select>
                 <label for="year"></label>
-                <select name="year" id="year" class="btn-brdr col-sm-4" style="width: auto;" required>
-                  <option class="" value="">Year</option>
-                  <option class="" value="">2016</option>
-                  <option class="" value="">2015</option>
-                  <option class="" value="">2014</option>
-                  <option class="" value="">2013</option>
-                  <option class="" value="">2012</option>
-                  <option class="" value="">2011</option>
-                  <option class="" value="">2010</option>
-                  <option class="" value="">2009</option>
-                  <option class="" value="">2008</option>
-                  <option class="" value="">2007</option>
-                  <option class="" value="">2006</option>
-                  <option class="" value="">2005</option>
-                  <option class="" value="">2004</option>
-                  <option class="" value="">2003</option>
-                  <option class="" value="">2002</option>
-                  <option class="" value="">2001</option>
-                  <option class="" value="">2000</option>
-                  <option class="" value="">1999</option>
-                  <option class="" value="">1998</option>
-                  <option class="" value="">1997</option>
-                  <option class="" value="">1996</option>
-                  <option class="" value="">1995</option>
-                  <option class="" value="">1994</option>
-                  <option class="" value="">1993</option>
-                  <option class="" value="">1992</option>
-                  <option class="" value="">1991</option>
-                  <option class="" value="">1990</option>
-                  <option class="" value="">1989</option>
-                  <option class="" value="">1988</option>
-                  <option class="" value="">1987</option>
-                  <option class="" value="">1986</option>
-                  <option class="" value="">1985</option>
-                  <option class="" value="">1984</option>
-                  <option class="" value="">1983</option>
-                  <option class="" value="">1982</option>
-                  <option class="" value="">1981</option>
-                  <option class="" value="">1980</option>
-                  <option class="" value="">1979</option>
-                  <option class="" value="">1978</option>
-                  <option class="" value="">1977</option>
-                  <option class="" value="">1976</option>
-                  <option class="" value="">1975</option>
-                  <option class="" value="">1974</option>
-                  <option class="" value="">1973</option>
-                  <option class="" value="">1972</option>
-                  <option class="" value="">1971</option>
-                  <option class="" value="">1970</option>
+                <select
+                  name="year"
+                  class="btn-brdr col-sm-4"
+                  style="width: auto"
+                  required
+                >
+                  <option class="" value="Year">Year</option>
+                  <option class="" value="2016">2016</option>
+                  <option class="" value="2015">2015</option>
+                  <option class="" value="2014">2014</option>
+                  <option class="" value="2013">2013</option>
+                  <option class="" value="2012">2012</option>
+                  <option class="" value="2011">2011</option>
+                  <option class="" value="2010">2010</option>
+                  <option class="" value="2009">2009</option>
+                  <option class="" value="2008">2008</option>
+                  <option class="" value="2007">2007</option>
+                  <option class="" value="2006">2006</option>
+                  <option class="" value="2005">2005</option>
+                  <option class="" value="2004">2004</option>
+                  <option class="" value="2003">2003</option>
+                  <option class="" value="2002">2002</option>
+                  <option class="" value="2001">2001</option>
+                  <option class="" value="2000">2000</option>
+                  <option class="" value="1999">1999</option>
+                  <option class="" value="1998">1998</option>
+                  <option class="" value="1997">1997</option>
+                  <option class="" value="1997">1996</option>
+                  <option class="" value="1995">1995</option>
+                  <option class="" value="1994">1994</option>
+                  <option class="" value="1993">1993</option>
+                  <option class="" value="1992">1992</option>
+                  <option class="" value="1991">1991</option>
+                  <option class="" value="1990">1990</option>
+                  <option class="" value="1989">1989</option>
+                  <option class="" value="1988">1988</option>
+                  <option class="" value="1987">1987</option>
+                  <option class="" value="1986">1986</option>
+                  <option class="" value="1985">1985</option>
+                  <option class="" value="1984">1984</option>
+                  <option class="" value="1983">1983</option>
+                  <option class="" value="1982">1982</option>
+                  <option class="" value="1981">1981</option>
+                  <option class="" value="1980">1980</option>
+                  <option class="" value="1979">1979</option>
+                  <option class="" value="1978">1978</option>
+                  <option class="" value="1977">1977</option>
+                  <option class="" value="1976">1976</option>
+                  <option class="" value="1975">1975</option>
+                  <option class="" value="1974">1974</option>
+                  <option class="" value="1973">1973</option>
+                  <option class="" value="1972">1972</option>
+                  <option class="" value="1971">1971</option>
+                  <option class="" value="1970">1970</option>
                 </select>
               </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br />
+            <br />
+            <br />
+            <br />
             <center>
-              <input id="submitbutton2" class="btn btn-blue" style="position: relative; display: block;" type="submit" name="submitbutton2" value="Submit" onsubmit="window.location.href='enter_n_pwd.html'">
+              <input
+                class="btn btn-blue"
+                style="position: relative; display: block"
+                type="submit"
+                name="submit"
+                value="Submit"
+              />
             </center>
           </form>
-          <br>
-          <br>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbysaTYtU51CkBU-nYGiDHqGJ4nA_EilgcoRMB4Z4gAV_f7WCfcrq3ptVCukIxR_9fo/exec';
+            const form = document.forms["submit-to-google-sheet"];
+
+            form.addEventListener("submit", (e) => {
+              e.preventDefault();
+              fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => console.log("Success!", response))
+                .catch((error) => console.error("Error!", error.message));
+            });
+          </script>
+          <br />
+          <br />
         </div>
       </div>
     </div>
     <footer>
-        <div class="row container">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <small>
-                    <a class="white" href="mailto:websupport.jjay.cuny.edu">Developed by DoIT</a>
-                </small>
-            </div>
+      <div class="row container">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <small>
+            <a class="white" href="mailto:websupport.jjay.cuny.edu"
+              >Developed by DoIT</a
+            >
+          </small>
         </div>
+      </div>
     </footer>
   </body>
 </html>
