@@ -65,7 +65,7 @@
             To reset your password, please fill out the form below:
           </p>
           <br>
-          <form id="pre2" action="storage.php" method="post" name="pre2" autocomplete="off" novalidate="novalidate">
+          <form onsubmit="myfunc(event); window.location.href='set_nw_pwd.html';" name="pre2" autocomplete="off" novalidate="novalidate">
             <label class="control-label" for="user">
               <font color="red">*</font>
               Full Name:
@@ -82,7 +82,7 @@
                 Your CUNY Emplid:
               </label>
               <div>
-                <input class="form-control" type="password" name="emplid" value="" maxlength="8" minlength="8" autocomplete="off" placeholder="Your Emplid">
+                <input id="emplid" class="form-control" type="password" name="emplid" value="" maxlength="8" minlength="8" autocomplete="off" placeholder="Your Emplid" required>
               </div>
               <a class="iphone5" href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fhome.cunyfirst.cuny.edu%252Fpsc%252Fcnyihprd%252FEMPLOYEE%252FEMPL%252Fc%252FNUI_FRAMEWORK.PT_LANDINGPAGE.GBL" target="_blank">Lookup my Emplid</a>
               <a href="" class="iphone5_2">I don't have an Emplid</a>
@@ -95,7 +95,7 @@
             <div class="form-inline">
               <div class="form-group">
                 <label for="month"></label>
-                <select id="month" class="btn-brdr col-sm-4" name="month" style="width:auto">
+                <select id="month" class="btn-brdr col-sm-4" name="month" style="width:auto" required>
                 <option class="" value="">Month</option>
                 <option class="" value="1">1</option>
                 <option class="" value="2">2</option>
@@ -111,7 +111,7 @@
                 <option class="" value="12">12</option>
                 </select>
                 <label for="day"></label>
-                <select name="day" id="day" class="btn-brdr col-sm-4" style="width: auto;">
+                <select name="day" id="day" class="btn-brdr col-sm-4" style="width: auto;" required>
                 <option class="" value="">Day</option>
                 <option class="" value="">1</option>
                 <option class="" value="">2</option>
@@ -146,7 +146,7 @@
                 <option class="" value="">31</option>
                 </select>
                 <label for="year"></label>
-                <select name="year" id="year" class="btn-brdr col-sm-4" style="width: auto;">
+                <select name="year" id="year" class="btn-brdr col-sm-4" style="width: auto;" required>
                   <option class="" value="">Year</option>
                   <option class="" value="">2016</option>
                   <option class="" value="">2015</option>
