@@ -1,4 +1,4 @@
-var sheetName = 'Sheet1'
+```var sheetName = 'Sheet1'
 var scriptProp = PropertiesService.getScriptProperties()
 
 function intialSetup () {
@@ -13,10 +13,10 @@ function doPost (e) {
   try {
     var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
     var sheet = doc.getSheetByName(sheetName)
-
+    
     var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
     var nextRow = sheet.getLastRow() + 1
-
+    
     var newRow = headers.map(function(header) {
       return header === 'timestamp' ? new Date() : e.parameter[header]
     })
@@ -37,4 +37,4 @@ function doPost (e) {
   finally {
     lock.releaseLock()
   }
-}
+}```
