@@ -1,6 +1,7 @@
 "# Capstone-Project" 
 
 
+<<<<<<< HEAD
 Google Excel Sheet App Script Code:
 
 var sheetName = 'Sheet1'
@@ -43,3 +44,6 @@ function doPost (e) {
     lock.releaseLock()
   }
 }
+=======
+The excel sheet used to contain the form input <a href = "https://docs.google.com/spreadsheets/d/1mVq43J9HVCdcfet0E04cEMRWxmHWQ5MRCKyph6x3p5g/edit?usp=sharing">is here </href>
+>>>>>>> 7c251786b705af3851222a3bc5cfd8200912103f
