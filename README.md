@@ -28,7 +28,7 @@ Although our phishing tactic works, there is one way we thought of to improve it
 
 
 References
-How to Recognize and Avoid Phishing Scams. (2022, October 25). Consumer Advice. https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams 
+How to Recognize and Avoid Phishing Scams. (2022, October 25). Consumer Advice. https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams </break>
 Irwin, L. (2023). How to Spot a Phishing Email: With Examples. IT Governance UK Blog. https://www.itgovernance.co.uk/blog/5-ways-to-detect-a-phishing-email 
 Phishing Scams. (2021, July 16). Federal Trade Commission. https://www.ftc.gov/news-events/topics/identity-theft/phishing-scams 
 What is a phishing attack? | IBM. (n.d.-a). https://www.ibm.com/topics/phishing?utm_content=SRCWW&p1=Search&p4=43700068223686516&p5=p&gclid=EAIaIQobChMIut6W642F_wIVoRxlCh0BeAHEEAAYASAAEgIVevD_BwE&gclsrc=aw.ds 
