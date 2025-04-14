@@ -1,4 +1,4 @@
-# Capstone-Project for CSCI 400"
+# Capstone-Project for CSCI 400
 
 ### Project Webpage can be accessed here [Capstone](https://eterxy.github.io/Capstone-Project/)
 
